@@ -26,7 +26,7 @@ public class BaseEntity {
     /**
      *
      */
-    @CreationTimestamp
+    @UpdateTimestamp
     private Instant updatedAt;
     /**
      * 是否删除
