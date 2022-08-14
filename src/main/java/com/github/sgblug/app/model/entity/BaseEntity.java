@@ -1,6 +1,7 @@
 package com.github.sgblug.app.model.entity;
 
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -26,7 +27,7 @@ public class BaseEntity {
     /**
      *
      */
-    @CreationTimestamp
+    @UpdateTimestamp
     private Instant updatedAt;
     /**
      * 是否删除
