@@ -21,6 +21,7 @@ public class BaseEntity {
     private  Long id;
     /**
      *
+     *
      */
     @CreationTimestamp
     private Instant createdAt;
@@ -84,7 +85,7 @@ public class BaseEntity {
                 ", createdAt=" + createdAt +
                 ", updatedAt=" + updatedAt +
                 ", deleted=" + deleted +
-                '}';
+                '}'+"123131";
     }
 
     @Override
@@ -103,4 +104,5 @@ public class BaseEntity {
     public int hashCode() {
         return Objects.hash(id, createdAt, updatedAt, deleted);
     }
+
 }
