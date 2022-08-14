@@ -85,7 +85,7 @@ public class BaseEntity {
                 ", createdAt=" + createdAt +
                 ", updatedAt=" + updatedAt +
                 ", deleted=" + deleted +
-                '}'+"123131";
+                '}';
     }
 
     @Override
